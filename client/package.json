@@ -68,5 +68,6 @@
     "react-app-rewired": "^2.1.6"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": []
 }

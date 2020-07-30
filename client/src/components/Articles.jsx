@@ -15,44 +15,48 @@ function Articles(){
     });
 
     return (
-       <div className="articleBody">
+        <div>
 
-       <header className= "articleHeader">
-           <br/>
-           <br/>
-           <br/>
-  <h1 className="articleH1">Articles</h1>
+        <div className="articleBody">
+
+<header className= "articleHeader">
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+ <h1 className="articleTitle">Articles</h1>
+ <h1 className="articleTitle2">Articles</h1>
   <br/>
-</header>
-<div className="articleBand">
-  <div className="articleItem-1">
-    <a href="" className="articleCard">
-      <div className="articleThumb"></div>
-      <article className= "articleArticle">
-        <h1 className="articleH1">International Artist Feature: Malaysia</h1>
-        <p className="articleP">Malaysia's art epicentre is looking like the world's aesthetic utopia as foreseen by the great DaVinci</p>
-        <span className="articleSpan">Mary Winkler</span>
-      </article>
-    </a>
-  </div>
+     </header>
 
-  <div className="articleItem-2">
+  <div className="gridContainer ">
   {totalpost.map((data, index) => {
-                    return(
-                        <Structure 
-                        title = {data.title}
-                        body ={data.body}
-                        author = {data.author}
-                        img ={data.img}
-                        key = {index}
-                        id= {index}
-                        />);
-                })}
-  </div>
+             return(
+                 <Structure 
+                 title = {data.title}
+                 body ={data.body}
+                 author = {data.author}
+                 img ={data.img}
+                 key = {index}
+                 id= {index}
+                 />);
+         })}
+     </div>
 
+ </div>
+ <div className="seventh-division">
+  <a className="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+ <a className="footer-link" href="https://twitter.com/">Twitter</a>
+ <a className="footer-link" href="http://uyi.com">Website</a>
+ <p className="last">© 2020 <span class="last-last">Omoruyi Ohuoba.</span> All Rights Reserved.</p>
 </div>
 
-       </div>
+        </div>
+       
+        
+
       
     )
 }

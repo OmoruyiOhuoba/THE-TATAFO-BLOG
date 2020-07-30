@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600;700&display=swap');
 @import "~bootstrap/scss/bootstrap";
 
-body, html {
+body {
   font-family: 'Josefin Slab', serif;
   height:100%;
   width: 100%;
@@ -386,106 +386,50 @@ padding-bottom: 100px
   color: black;
 }
 
+.articleTitle{
+  color: white;
+  font-family: 'Sacramento', cursive;
+font-size: 70px;
+position: absolute;
+top: 71px;
+margin-left:538.7px;
 
+}
 
-/* Articles.jsx and Structure.jsx...... Change the tags and classes*/
+.articleTitle2{
+  position: absolute;
+  color: rgb(47, 46, 65);
+  font-family: 'Sacramento', cursive;
+font-size: 70px;
+top: 72px;
+margin-left:536.5px;
+}
+
+/* GRID*/
 
 .articleBody {
   background: #E76427;
-  font-family: 'Josefin Slab', serif;
-  -webkit-font-smoothing: antialiased;
-  padding: 20px 0;
-  color: rgb(47, 46, 65);
 }
 
-.articleHeader {
-  width: 90%;
-  max-width: 1240px;
-  margin: 0 auto;
-}
-.articleBand {
-  width: 90%;
-  max-width: 1240px;
-  margin: 0 auto;
-  
+.gridContainer{
   display: grid;
-  
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-gap: 20px;
-
-  
-  
-  @media (min-width: 30em) {
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  @media (min-width: 60em) {
-    grid-template-columns: repeat(4, 1fr);
-  }
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 1px;
+  background-color: #E76427;
+  padding: 10px;
+  margin: 4px;
 }
 
-.articleCard {
-  background: white;
-  text-decoration: none;
+.gridContainer > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  color: rgb(71, 70, 70)
+
+}
+
+.gridH5{
   color: rgb(47, 46, 65);
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-  
-  // sets up hover state
-  position: relative;
-  top: 0;
-  transition: all .1s ease-in;
-    
-  &:hover {
-    top: -2px;
-    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
-  }
-  
-  .articleArticle {
-    padding: 20px;
-    flex: 1;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .articleH1 {
-    font-size: 20px;
-    margin: 0;
-    color: rgb(47, 46, 65);
-  }
-  
-  .articleP {
-    flex: 1;
-    line-height: 1.4;
-  }
-  
-  .articleSpan {
-    font-size: 12px;
-    font-weight: bold;
-    color: rgb(47, 46, 65);
-    text-transform: uppercase;
-    letter-spacing: .05em;
-    margin: 2em 0 0 0;
-  }
-  
-  .articleThumb {
-    padding-bottom: 60%;
-    background-size: 1280px 720px;
-    background-position: center center;
-  }
-}
-
-.articleItem-1 {
-  @media (min-width: 60em) {
-    grid-column: 1 / span 2;
-    
-    h1 {
-      font-size: 24px;
-    }
-  }
 }
