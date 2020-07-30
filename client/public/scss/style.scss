@@ -470,26 +470,43 @@ float: left;
   background-color:rgb(239, 200, 184) ;
 }
 
-.contactTop{
-  margin: 0 auto;
+.contactBody{
+  background-color: #E76427;
+
+}
+
+.contact{
+padding: 150px 160px;
+padding-bottom: 300px;
+
+
 }
 
 .contactImg{
-  width: 40%;
-  float: left;
+width: 600px;
+float: left;
 
 }
 
-.contactContent{
-  font-size: 30px;
-}
+.contactText{
+  padding-top: 150px;
+  padding-right: 100px;
+  font-size: 16px;
+  color: rgb(47, 46, 65);
+  text-align: justify;
 
-.contactBody{
-  background-color: #E76427;
-  
+
 }
 
 .contactSeven{
   background-color: #E76427;
 
+}
+
+.contactLogo{
+  height: 16px;
+  float: left;
+  padding-left: 30px;
+  margin-right: 5px;
+  margin-top: 5px;
 }

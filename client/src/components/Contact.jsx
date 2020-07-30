@@ -1,13 +1,23 @@
 import React from "react";
 import contactImg from "../../public/contactImg.svg";
+import instagramImg from "../../public/instagram-brands.svg";
+import facebookImg from "../../public/facebook-brands.svg";
+import twitterImg from "../../public/twitter-brands.svg";
 
 function Contact(){
     return(
         <div className="contactBody">
-            <div className="contactTop">
+            <div className="contact">
             <img className="contactImg" src={contactImg} alt=""/>
-            <div className="contactContent">
-            <p>tatafo</p>
+            <div className="contactText">
+            <h1>Contact us at:</h1>
+            <img className="contactLogo" src={instagramImg} alt=""/>
+            <p>@tatafoBlog</p>
+            <img className="contactLogo" src={facebookImg} alt=""/>
+            <p>@theofficialtatafoblog</p>
+            <img className="contactLogo" src={twitterImg} alt=""/>
+            <p>@tatafo_blog</p>
+            
 
             </div>
             </div>
