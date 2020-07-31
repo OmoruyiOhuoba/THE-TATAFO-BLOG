@@ -11,9 +11,9 @@ function Contact(){
             <img className="contactImg" src={contactImg} alt=""/>
             <div className="contactText">
             <h1>Contact us at:</h1>
-            <img className="contactLogo" src={instagramImg} alt=""/>
-            <p>@tatafoBlog</p>
             <img className="contactLogo" src={facebookImg} alt=""/>
+            <p>@tatafoBlog</p>
+            <img className="contactLogo" src={instagramImg} alt=""/>
             <p>@theofficialtatafoblog</p>
             <img className="contactLogo" src={twitterImg} alt=""/>
             <p>@tatafo_blog</p>
