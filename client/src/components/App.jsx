@@ -5,7 +5,7 @@ import Home from "./Home";
 import Articles from "./Articles";
 import AddArticle from "./AddArticle";
 import Contact from "./Contact";
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import NavBar from "./Layout/NavBar";
 
 function App(){

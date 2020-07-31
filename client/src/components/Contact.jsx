@@ -8,14 +8,14 @@ function Contact(){
     return(
         <div className="contactBody">
             <div className="contact">
-            <img className="contactImg" src={contactImg} alt=""/>
+            <img className="contactImg" src={contactImg}/>
             <div className="contactText">
             <h1>Contact us at:</h1>
-            <img className="contactLogo" src={facebookImg} alt=""/>
+            <img className="contactLogo" src={facebookImg} />
             <p>@tatafoBlog</p>
-            <img className="contactLogo" src={instagramImg} alt=""/>
+            <img className="contactLogo" src={instagramImg} />
             <p>@theofficialtatafoblog</p>
-            <img className="contactLogo" src={twitterImg} alt=""/>
+            <img className="contactLogo" src={twitterImg}/>
             <p>@tatafo_blog</p>
             
 

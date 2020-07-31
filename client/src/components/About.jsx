@@ -9,7 +9,7 @@ function About(){
         <br/>
         <h1 className="aboutTatafo">Tatafo Blog</h1>
         <div className="about">
-                <img className="aboutImg" src={aboutImg} alt=""/>
+                <img className="aboutImg" src={aboutImg} />
                 <div className="aboutText">
                     <p>"A blog for gossips, by gossips, to gossips"</p>
                     <p>-Omoruyi</p>

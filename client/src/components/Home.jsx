@@ -39,7 +39,7 @@ function Home(){
 </div>
 <div className= "third-division">
         <div className="news">
-        <img className="newsImg" src={News} alt=""/>
+        <img className="newsImg" src={News} />
         <h3>News</h3>
         <p> Get all the lastest news first right in the palm of your hands as soon as it breaks. If it's out there, it's right here. Specially suited. Just for you our tatafo!</p>
         </div>
@@ -48,14 +48,14 @@ function Home(){
             <br/>
             <br/>
             <br/>
-            <img className="gossipImg" src={Gossip} alt=""/>
+            <img className="gossipImg" src={Gossip} />
             <h3> Gossip</h3>
             <p>We got all the juiciest gossip right here. We don't care if the gist is true or false. It's none of our business abeg. Once it trends, it's here fam.</p>
         </div>
         <div className="fashion">
               <br/>
             <br/>
-            <img className="fashionImg"src={Fashion} alt=""/>
+            <img className="fashionImg"src={Fashion} />
             <div className="fashionText"><h3>Fashion</h3>
             <p>You know we just had to add this section. We're steady showing you how to drip, you obviously need it smh...</p></div>
 
@@ -75,19 +75,19 @@ function Home(){
         <br/>
         <div className="companies">
              <div className="company-card">
-                <img className="cardImg" src={Cnn} alt=""/>
+                <img className="cardImg" src={Cnn} />
                 <div className="container">
                     <p> "Tatafo blog; best blog world-wide"</p>
                 </div>
              </div>
              <div className="company-card">
-                <img className="cardImg" src={Nasa} alt=""/>
+                <img className="cardImg" src={Nasa} />
                 <div className="container">
                     <p> "Astronauts confirm Universe's no 1 blog"</p>
                 </div>            
              </div>
              <div className="company-card">
-                <img className="cardImg" src={Bbc} alt=""/>
+                <img className="cardImg" src={Bbc} />
                 <div className= "container">
                     <p> "We always look up to Uyi's blog"</p>
                 </div>
@@ -98,15 +98,15 @@ function Home(){
 
 </div>
 <div className="fifth-division">
-    <img className="dark" src={Nyt} alt=""/>
-    <img className="dark" src={Wsj} alt=""/>
-    <img className="dark" src={Tc} alt=""/>
-    <img className="dark" src={Tr} alt=""/>
-    <img className="dark" src={Bc} alt=""/>
-    <img className="dark" src={Pc} alt=""/>
-    <img className="dark" src={Cn} alt=""/>
-    <img className="dark" src={Fb} alt=""/>
-    <img className="dark" src={Hp} alt=""/>
+    <img className="dark" src={Nyt} />
+    <img className="dark" src={Wsj} />
+    <img className="dark" src={Tc} />
+    <img className="dark" src={Tr} />
+    <img className="dark" src={Bc} />
+    <img className="dark" src={Pc} />
+    <img className="dark" src={Cn} />
+    <img className="dark" src={Fb} />
+    <img className="dark" src={Hp} />
 
 </div>
 <div className="sixth-division">
