@@ -41,7 +41,8 @@ function AddArticle(){
     }
 
     return(
-  <div className="addarticle">
+  <div >
+            <div className="addarticle">
             <form action="">
          <div className="col-12 col-lg-6 offset-lg-3">
             <input className="form-control my-3" name="title" placeholder="Title" onChange={handleChange}/>
@@ -50,6 +51,15 @@ function AddArticle(){
             <button className="btn btn-primary float-right" onClick={submit}> Post </button>
          </div>
          </form>
+            </div>
+            <div className="addArticleFooter">
+  <a className="footer-link add" href="https://www.linkedin.com/">LinkedIn</a>
+ <a className="footer-link add" href="https://twitter.com/">Twitter</a>
+ <a className="footer-link add" href="http://uyi.com">Website</a>
+ <p className="last">© 2020 <span class="last-last">Omoruyi Ohuoba.</span> All Rights Reserved.</p>
+</div>
+  
+        
         </div>
 
 

@@ -46,7 +46,7 @@ function Articles(){
      </div>
 
  </div>
- <div className="seventh-division">
+ <div className="seventh-division articleFooter">
   <a className="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
  <a className="footer-link" href="https://twitter.com/">Twitter</a>
  <a className="footer-link" href="http://uyi.com">Website</a>

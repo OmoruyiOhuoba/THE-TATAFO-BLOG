@@ -11,7 +11,8 @@ function About(){
         <div className="about">
                 <img className="aboutImg" src={aboutImg} alt=""/>
                 <div className="aboutText">
-                    <p>"A blog for gossipers, by gossipers, to gossipers"</p>
+                    <p>"A blog for gossips, by gossips, to gossips"</p>
+                    <p>-Omoruyi</p>
             </div>
         </div>
         <div className="seventh-division aboutSeven">
