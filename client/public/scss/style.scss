@@ -400,29 +400,19 @@ margin-top: 0;
   color: white;
 }
 
+
+
 .articleTitle{
-  color: white;
-  font-family: 'Sacramento', cursive;
-font-size: 70px;
-position: absolute;
-top: 71px;
-margin-left:538.7px;
-
-}
-
-.articleTitle2{
-  position: absolute;
   color: rgb(47, 46, 65);
   font-family: 'Sacramento', cursive;
 font-size: 70px;
-top: 72px;
-margin-left:536.5px;
-}
+;}
 
 /* GRID*/
 
 .articleBody {
   background: #E76427;
+  padding-bottom: 200px;
 }
 
 .gridContainer{
@@ -527,4 +517,10 @@ float: left;
   padding-left: 30px;
   margin-right: 5px;
   margin-top: 5px;
+}
+
+
+.arc{
+  width: 100%;
+  object-fit: cover;
 }

@@ -34,7 +34,7 @@ function Home(){
   <button class="button subscribe">Subscribe</button>
 </div>
 </div>
-<div className="top-of-third-division">
+<div className="top-of-third-division arc">
 
 </div>
 <div className= "third-division">
@@ -64,7 +64,7 @@ function Home(){
         </div>
 <br/>
 </div> 
-<div className="bottom-of-third-division">
+<div className="bottom-of-third-division arc">
 
 </div>
 <div className="fourth-division"> 
@@ -94,7 +94,7 @@ function Home(){
              </div>
         </div>
 </div>
-<div className="top-of-fifth-division">
+<div className="top-of-fifth-division arc">
 
 </div>
 <div className="fifth-division">

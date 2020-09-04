@@ -24,11 +24,7 @@ function Articles(){
     <br/>
     <br/>
     <br/>
-    <br/>
-    <br/>
  <h1 className="articleTitle">Articles</h1>
- <h1 className="articleTitle2">Articles</h1>
-  <br/>
      </header>
 
   <div className="gridContainer ">
