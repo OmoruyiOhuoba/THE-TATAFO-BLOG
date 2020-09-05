@@ -43,10 +43,10 @@ function Articles(){
 
  </div>
  <div className="seventh-division articleFooter">
-  <a className="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
- <a className="footer-link" href="https://twitter.com/">Twitter</a>
- <a className="footer-link" href="http://uyi.com">Website</a>
- <p className="last">© 2020 <span class="last-last">Omoruyi Ohuoba.</span> All Rights Reserved.</p>
+ <a className="footer-link" href="https://github.com/OmoruyiOhuoba">GitHub</a>
+        <a className="footer-link" href="https://omoruyiohuoba.com/">Website</a>
+        <a className="footer-link" href="https://twitter.com/OmoruyiOhuoba">Twitter</a>
+        <p>© {new Date().getFullYear()}  <span class="last-last">Omoruyi Ohuoba.</span> All Rights Reserved.</p>
 </div>
 
         </div>

@@ -53,10 +53,10 @@ function AddArticle(){
          </form>
             </div>
             <div className="addArticleFooter">
-  <a className="footer-link add" href="https://www.linkedin.com/">LinkedIn</a>
- <a className="footer-link add" href="https://twitter.com/">Twitter</a>
- <a className="footer-link add" href="http://uyi.com">Website</a>
- <p className="last">© 2020 <span class="last-last">Omoruyi Ohuoba.</span> All Rights Reserved.</p>
+            <a className="last" href="https://github.com/OmoruyiOhuoba">GitHub</a>
+        <a className="last" href="https://omoruyiohuoba.com/">Website</a>
+        <a className="last" href="https://twitter.com/OmoruyiOhuoba">Twitter</a>
+        <p className="">© {new Date().getFullYear()}  <span class="last-last">Omoruyi Ohuoba.</span> All Rights Reserved.</p>
 </div>
   
         

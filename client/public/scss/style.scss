@@ -26,10 +26,9 @@ color: rgb(47, 46, 65);
 //rgba(0, 0, 0, 0.678)
 .first{
 background-image:url("../Background.jpeg") ;
-background-size: 1280px 721px;
+background-size: 100% 100%;
 background-repeat: no-repeat;
-height:100%;
-width: 100%;
+
 padding: 300px;
 border-bottom: 0;
 padding-bottom: 229px;
@@ -378,7 +377,7 @@ padding-bottom: 100px
 
 .addarticle{
   background-image:url("../Background.jpeg") ;
-  background-size: 1280px 721px;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-top: 120px;
   padding-bottom: 300px;
@@ -391,7 +390,7 @@ padding-bottom: 100px
 color: white;
 background-color: rgb(47, 46, 65);
 padding-bottom: 50px;
-padding-top: 0;
+padding-top: 50px;
 margin-top: 0;
  
 }
@@ -523,4 +522,144 @@ float: left;
 .arc{
   width: 100%;
   object-fit: cover;
+}
+
+@media only screen and (max-width: 934px){
+  .heading{
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .first{
+    padding-right: 150px;
+    padding-left: 150px;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .cardImg{
+    object-fit: fill;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 642px){
+  .company-card{
+    display: block;
+    padding: 0;
+    margin: 10px auto;
+    object-fit: fill;
+    width: 80%
+  }
+}
+
+@media only screen and (max-width: 618px){
+  .gridContainer{
+    grid-template-columns: auto auto auto  ;
+  }
+}
+
+@media only screen and (max-width: 506px){
+
+ .cartoon{
+    object-fit: fill;
+    width: 100%;
+ }
+
+ .first{
+  padding-right: 90px;
+  padding-left: 90px;
+}
+
+.company-card{
+  display: block;
+  padding: 0;
+  margin: 10px auto;
+  object-fit: fill;
+  width: 80%
+}
+
+.container{
+  padding: 0;
+}
+
+.writing{
+  padding: 0 50px;
+}
+}
+
+@media only screen and (max-width: 500px){
+  .gridContainer{
+    grid-template-columns:  auto auto  ;
+  }
+}
+
+@media only screen and (max-width: 469px){
+
+  .fifth-division{
+    padding: 10px 0;
+  }
+ }
+
+@media only screen and (max-width: 461px){
+
+  .first{
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+
+@media only screen and (max-width: 360px){
+
+ .dark{
+   margin-right: 2px;
+ }
+
+}
+
+@media only screen and (max-width: 345px){
+  .gridContainer{
+    grid-template-columns:  auto  ;
+  }
+}
+
+
+
+@media only screen and (max-width: 300px){
+  .first{
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+ }
+
+ @media only screen and (max-width: 327px){
+  .nav{
+    padding: 14px 8px;
+  }
+
+  ul{
+    right: 0px;
+  }
+
+ }
+
+ @media only screen and (max-width: 290px){
+  .dark{
+  object-fit: 100% 100%;
+  width: 100%;
+  }
+ }
+
+ @media only screen and (min-height: 906px){
+  .addArticleFooter{
+    padding-top: 300px;
+    padding-bottom: 300px;
+  }
+ }
+
+.last{
+  width: 150px;
+  display: inline-block;
+  color: white;
 }

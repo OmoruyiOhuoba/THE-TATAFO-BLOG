@@ -31,7 +31,7 @@ function Home(){
 <br/>
 <br/>
 <div class="wrap">
-  <button class="button subscribe">Subscribe</button>
+  <a href="/articles"><button class="button subscribe">Read</button> </a>
 </div>
 </div>
 <div className="top-of-third-division arc">
@@ -39,7 +39,7 @@ function Home(){
 </div>
 <div className= "third-division">
         <div className="news">
-        <img className="newsImg" src={News} alt="news "/>
+        <img className="newsImg cartoon" src={News} alt="news "/>
         <h3>News</h3>
         <p> Get all the lastest news first right in the palm of your hands as soon as it breaks. If it's out there, it's right here. Specially suited. Just for you our tatafo!</p>
         </div>
@@ -48,14 +48,14 @@ function Home(){
             <br/>
             <br/>
             <br/>
-            <img className="gossipImg" src={Gossip} alt="gossip "/>
+            <img className="gossipImg cartoon" src={Gossip} alt="gossip "/>
             <h3> Gossip</h3>
             <p>We got all the juiciest gossip right here. We don't care if the gist is true or false. It's none of our business abeg. Once it trends, it's here fam.</p>
         </div>
         <div className="fashion">
               <br/>
             <br/>
-            <img className="fashionImg"src={Fashion} alt="fashion "/>
+            <img className="fashionImg cartoon"src={Fashion} alt="fashion "/>
             <div className="fashionText"><h3>Fashion</h3>
             <p>You know we just had to add this section. We're steady showing you how to drip, you obviously need it smh...</p></div>
 
@@ -77,7 +77,7 @@ function Home(){
              <div className="company-card">
                 <img className="cardImg" src={Cnn} alt="cnn logo"/>
                 <div className="container">
-                    <p> "Tatafo blog; best blog world-wide"</p>
+                    <p className="writing"> "Tatafo blog; best blog world-wide"</p>
                 </div>
              </div>
              <div className="company-card">
@@ -112,15 +112,15 @@ function Home(){
 <div className="sixth-division">
     <p> Sign up today! </p>
     <div class="wrap">
-  <button class="button subscribe">Subscribe</button>
+    <a href="/articles"><button class="button subscribe">Read</button> </a>
 </div>
 </div>
 <div className="seventh-division">
         <br/>
-         <a className="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-        <a className="footer-link" href="https://twitter.com/">Twitter</a>
-        <a className="footer-link" href="http://uyi.com">Website</a>
-        <p className="last">© 2020 <span class="last-last">Omoruyi Ohuoba.</span> All Rights Reserved.</p>
+         <a className="footer-link" href="https://github.com/OmoruyiOhuoba">GitHub</a>
+        <a className="footer-link" href="https://omoruyiohuoba.com/">Website</a>
+        <a className="footer-link" href="https://twitter.com/OmoruyiOhuoba">Twitter</a>
+        <p >© {new Date().getFullYear()}  <span class="last-last">Omoruyi Ohuoba.</span> All Rights Reserved.</p>
 </div>
 
 </div>
