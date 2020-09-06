@@ -1,12 +1,11 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "Start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "",
@@ -23,5 +22,13 @@
   },
   "devDependencies": {},
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmoruyiOhuoba/THE-TATAFO-BLOG.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OmoruyiOhuoba/THE-TATAFO-BLOG/issues"
+  },
+  "homepage": "https://github.com/OmoruyiOhuoba/THE-TATAFO-BLOG#readme",
   "description": ""
 }
