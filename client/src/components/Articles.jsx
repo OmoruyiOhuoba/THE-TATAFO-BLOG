@@ -6,7 +6,7 @@ function Articles(){
     const [totalpost, setTotalPosts] = useState([""]);
 
     useEffect(() => {
-        axios.get("http://localhost:4000/articles")
+        axios.get("http://localhost:4000/api/articles")
         .then((res) => {
             setTotalPosts(res.data);
         }).catch(error =>{
