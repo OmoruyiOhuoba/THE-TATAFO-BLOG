@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.312d3a65.chunk.css",
+    "main.js": "/static/js/main.6bb8f459.chunk.js",
+    "main.js.map": "/static/js/main.6bb8f459.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
+    "static/js/2.03fff352.chunk.js": "/static/js/2.03fff352.chunk.js",
+    "static/js/2.03fff352.chunk.js.map": "/static/js/2.03fff352.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9947becc37da5f988d591e254bc0032f.js": "/precache-manifest.9947becc37da5f988d591e254bc0032f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.312d3a65.chunk.css.map": "/static/css/main.312d3a65.chunk.css.map",
+    "static/js/2.03fff352.chunk.js.LICENSE.txt": "/static/js/2.03fff352.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/static/media/Newspaper.88c05f4b.jpg",
+    "static/media/bbc-2.svg": "/static/media/bbc-2.3b8554fb.svg",
+    "static/media/cnn-1.svg": "/static/media/cnn-1.8c9cee4f.svg",
+    "static/media/fashion.svg": "/static/media/fashion.fa8b3278.svg",
+    "static/media/gossip.svg": "/static/media/gossip.0383e1b5.svg",
+    "static/media/nasa-6.svg": "/static/media/nasa-6.72c1338e.svg",
+    "static/media/news.svg": "/static/media/news.e18dc65a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b85ec0.js",
+    "static/js/2.03fff352.chunk.js",
+    "static/css/main.312d3a65.chunk.css",
+    "static/js/main.6bb8f459.chunk.js"
+  ]
+}
