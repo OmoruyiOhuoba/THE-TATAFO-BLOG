@@ -13,7 +13,7 @@ const route = require("./routes/articlesroutes");
 
 const app = express();
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 
 if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging') {
@@ -34,7 +34,7 @@ app.use("/api/articles", route);
 //app.use(session({secret: "THE-TATAFO-BLOG", cookie: {maxAge:60000}, resave: false, saveUninitialized: false}));
 
 app.listen(port, () => {
-    console.log("Server is running on Port" + port);
+    console.log("Server is running on Port " + port);
 });
 
 app.use((req, res, next) => {

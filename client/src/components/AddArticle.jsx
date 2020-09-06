@@ -23,7 +23,7 @@ function AddArticle(){
     function submit(event){
         event.preventDefault();
 
-        axios.post("http://localhost:4000/api/articles/addarticle", post)
+        axios.post("/api/articles/addarticle", post)
         .then((res) => {
             console.log(res.data);
         }).catch((error) => {
